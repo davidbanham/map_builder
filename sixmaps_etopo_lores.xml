@@ -1,0 +1,18 @@
+<GDAL_WMS>
+  <Service name="TMS">
+    <ServerUrl>https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Topo_Map/MapServer/tile/${z}/${y}/${x}</ServerUrl>
+  </Service>
+  <DataWindow>
+    <UpperLeftX>-20037508.34278700</UpperLeftX>
+    <UpperLeftY>20037508.34278700</UpperLeftY>
+    <LowerRightX>20037508.34278103</LowerRightX>
+    <LowerRightY>-20037508.34278103</LowerRightY>
+    <TileLevel>15</TileLevel>
+    <TileCountX>1</TileCountX>
+    <YOrigin>top</YOrigin>
+  </DataWindow>
+  <Projection>EPSG:3857</Projection>
+  <BlockSizeX>256</BlockSizeX>
+  <BlockSizeY>256</BlockSizeY>
+	<ZeroBlockHttpCodes>404</ZeroBlockHttpCodes>
+</GDAL_WMS>
